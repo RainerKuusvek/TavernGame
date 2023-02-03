@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: textwrapper
+Version: 1.0.2
+Summary: Wraps text without breaking words.
+Home-page: https://github.com/tusharsadhwani/textwrapper
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# textwrapper
+
+Wraps your text files to a given width (defaults to 72), without breaking words.
+
+I use it to format AoC problems to python docstrings for [my solutions repo][1].
+
+I also use it for [Daily Byte][2].
+
+## Installation
+
+```console
+pip install textwrapper
+```
+
+## Usage
+
+```console
+textwrap path/to/file
+```
+
+[1]: https://github.com/tusharsadhwani/aoc2020
+[2]: https://github.com/tusharsadhwani/daily_byte
+
+
